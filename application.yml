@@ -3,7 +3,7 @@ general:
 
 spring:
   kafka:
-    bootstrap-servers: localhost:9092 # (optional for tests, but safe to include)
+    #bootstrap-servers: localhost:9092
 
     consumer:
       group-id: midas-group
